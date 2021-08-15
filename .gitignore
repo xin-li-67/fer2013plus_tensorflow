@@ -1,0 +1,11 @@
+# ide and cache
+.vscode
+__pycache__
+
+# dataset
+./dataset/fer2013
+./dataset/fer2013plus
+
+# test and demo
+./demo/*
+./emotion_models/*
