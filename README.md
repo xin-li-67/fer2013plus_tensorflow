@@ -20,12 +20,15 @@ I worked on conda python 3.9 virtual environment. Some key dependencies are list
 2. Check the model and start the training process: `model.py` is the the same as the original Microsoft design based their original paper and code. I have tried my best to replicate the `train.py` as well, however, it is still not identicial. Current version can provide a final performance of 83% on validation set and 64% on test set;
 3. Basic visualization and evaluation
 
+![benchmark](benchmark.png)
+
 ## TO-DO:
+
 1. Refine the training script
 2. Study more on TF2 details
 3. Study more on evaluating a model performance
 
 ## Citation:
-1. Microsoft CNTK fer
-2. Face
-3. Emotion
+
+1. [Microsoft CNTK FER+](https://github.com/microsoft/FERPlus): the FER+ new label annotations for the Emotion FER dataset.
+2. [Facial Expression Recognition](https://github.com/luanshiyinyang/FacialExpressionRecognition): A Tensorflow2.0 & Keras implementation on Fer2013, Jaffe and CK+ datasets.
